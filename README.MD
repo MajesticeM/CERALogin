@@ -297,3 +297,5 @@ This will stop this error message.
 ## License
 
 MIT © [Raphael Jenni](mailto:info@rjenni.ch)
+#   C E R A L o g i n  
+ 

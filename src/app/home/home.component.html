@@ -1,0 +1,562 @@
+<!--<p>home works!</p>-->
+<!--<button class="btn btn-success" [routerLink]="['/main']">To login page</button>-->
+
+
+ <!--================Header Menu Area =================-->
+ <header class="header_area">
+    <div class="top_menu row m0">
+        <div class="container">
+         <div class="float-left">
+             <ul class="list header_social">
+                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                 <li><a href="#"><i class="fa fa-behance"></i></a></li>
+             </ul>
+         </div>
+         <div class="float-right">
+             <select class="lan_pack">
+                 <option value="1">English</option>
+                 <option value="1">IsiZulu</option>
+                 <option value="1">Afrikaans</option>
+                 <option value="1">Isixhosa</option>
+                 <option value="1">SeTswana</option>
+                 <option value="1">SePedi</option>
+                 <option value="1">SeSotho</option>
+                 <option value="1">XiTsonga</option>
+                 <option value="1">Ndebele</option>
+                 <option value="1">SeSwati</option>
+             </select>
+             <a class="ac_btn" routerLink="/main">My Account</a>
+             <a class="dn_btn" style="background-color: green;border: green;" href="donation.html">Contribute Now</a>
+         </div>
+        </div>	
+    </div>	
+  <div class="main_menu">
+     <nav class="navbar navbar-expand-lg navbar-light">
+         <div class="container">
+             <!-- Brand and toggle get grouped for better mobile display -->
+             <a class="navbar-brand logo_h" routerLink="/home"><img src="assets/img/ceralogo.PNG" style="height: 80px;width:90px"></a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                 <ul class="nav navbar-nav menu_nav ml-auto">
+                     <li class="nav-item"><a class="nav-link" routerLink="/home">Home</a></li> 
+                     <li class="nav-item"><a class="nav-link"routerLink="/about">About</a></li>
+                     <li class="nav-item"><a class="nav-link" routerLink="/jobs">Volunteering & Jobs</a></li> 
+                      <li class="nav-item submenu dropdown">
+                         <a routerLink="/contribute" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Make A Contribution</a>
+                         <ul class="dropdown-menu">
+                             <li class="nav-item"><a class="nav-link" routerLink="/contribute">Security maintanence</a></li>
+                             <li class="nav-item"><a class="nav-link" routerLink="/contribute">Major wall Project</a></li>
+                             <li class="nav-item"><a class="nav-link" routerLink="/contribute">Parks & Recreation</a></li>
+                             <li class="nav-item"><a class="nav-link" routerLink="/contribute">Clayville East Football Academy</a></li>
+                             <li class="nav-item"><a class="nav-link" routerLink="/contribute">Youth Project Fund</a></li>
+                         </ul>
+                     </li> 
+                     
+                     <li class="nav-item submenu dropdown">
+                         <a routerLink="/news" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News</a>
+                         <ul class="dropdown-menu">
+                             <li class="nav-item"><a class="nav-link" routerLink="/news">News Headline 01</a></li>
+                             <li class="nav-item"><a class="nav-link" routerLink="/news">News Headline 02</a></li>
+                            
+                             
+                         </ul>
+                     </li> 
+                    
+                 </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                     <li class="nav-item"><a href="#" class="search"><i class="lnr lnr-magnifier"></i></a></li>
+                 </ul>
+                
+             </div> 
+         </div>
+        
+     </nav>
+    
+  </div>
+  </header>
+  <router-outlet></router-outlet>
+  <!--================Header Menu Area =================-->
+
+  <!--================Header Menu Area =================-->
+<!--================Home Banner Area =================-->
+<section class="home_banner_area" style="margin-top: 140px;">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center animate__animated animate__fadeInLeft">
+                <h5>We need your Help to serve the community</h5>
+                <h3>Let us make Clayville East Ekhuruleni's Best living community today</h3>
+                <p>Together , We can build a great communty!</p>
+                <a class="main_btn" href="donation.html" style="background-color: green;border: green;">Get 2021 Sticker</a>
+                <a class="white_btn" href="sticker.html">Make a contribution</a>
+            </div>
+        </div>
+    </div>
+    <div class="donation_area">
+        <div class="container">
+            <div class="row donation_inner">
+                <div class="col-lg-4">
+                    <div class="dontation_item yellow animate__animated animate__fadeInUp">
+                        <div class="media ">
+                            <div class="media-body">
+                                <h4>Total Contributions towards Projects</h4>
+                                <p>We encourage all community memebers to make monthly contributions so that we can all live in an environment that is appropriate for all of us.</p>
+                                <a class="main_btn" href="donation.html" style="background-color: green;border: green;margin-top: 10px;">Contribute</a>
+                            </div>
+                            <div class="d-flex">
+                                <h3>R10 000 raised</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dontation_item pink animate__animated animate__fadeInDown">
+                        <div class="media ">
+                            <div class="media-body">
+                                <h4>Registered CERA residents</h4>
+                                <p>We would like to thank the 340 members who are actively contributing residents.  
+                                     We also woud like to invite you to be part of CERA and be active in the community. 
+                                     Your contributions will make Clayville East a first class community in Ekhuruleni.</p>
+                                <a class="main_btn" href="donation.html" style="background-color: green;border: green;margin-top: 10px;">Join Today</a>
+                            </div>
+                            <div class="d-flex">
+                                <h3>340 residents</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="dontation_item green  animate__animated animate__fadeInUp">
+                        <div class="media">
+                            <div class="media-body">
+                                <h4>Future Plans</h4>
+                                <p>CERA supports the idea of having active citizens.We are currently supporting a couple of projects within the community that involve pensioners & youth members.Learn more about the initiatives and be a part of them!</p>
+                                <a class="main_btn" href="donation.html" style="background-color: green;border: green;margin-top: 10px;">Learn More</a>
+                            </div>
+                            <div class="d-flex">
+                                <h3>3 initiatives</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+ <!--================Welcome Area =================-->
+ <section class="welcome_area p_120">
+    <div class="container">
+        <div class="row welcome_inner">
+            <div class="col-lg-6">
+                <div class="welcome_text ">
+                    <h4 class="animate__animated animate__fadeInLeft">Welcome to Clayville East Residential Association</h4>
+                    <p class="animate__animated animate__fadeInUp">The association was formed in 2017 to try alleviate crime within the the community of Clayville East. Till today it is our mandate to ensure safety within the community but we need every resident to be a participant of this great project. </p>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                <div >
+                    <img class="img-responsive" src="assets/img/ceralogo.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Welcome Area =================-->
+<section>
+    <div class="container">
+        <h1 class="text-center animate__animated animate__fadeInLeft"><b style="color: black;">Local Job Opportunities</b></h1>
+        <p class="text-center">We would like to thank our volunteeers who work tirelessly to make our community what it is today.To become a volunteer you must be passionate about seeing the community in a positive way.</p>
+        <div class="row">
+            <div class="col-lg-4">
+               <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Co2 Industrial Welder</h5>
+                        <h5>West Engineering</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Part time IT Support Engineer</h5>
+                        <h5>Babirwa IT Group</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Full Time Packer</h5>
+                        <h5>Packaging Company</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row" style="margin-top:20px">
+            <div class="col-lg-4">
+               <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Volunteering Call centre agents</h5>
+                        <h5 class="card-title">CERA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Volunteering Street reps</h5>
+                        <h5 class="card-title">CERA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Logitics Manager</h5>
+                        <h5 class="card-title">Logistics Company</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+  <!--================Causes Area =================-->
+  <section class="causes_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Make a contribution towards bettering the community</h2>
+            <p>Together we can build a better community that will benefit all of us.View the current projects that you can be part of today.</p>
+        </div>
+        <div class="causes_slider owl-carousel">
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/Major road.PNG" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>Major Street Walling project</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/securityGates.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>Security entrance Improvement project</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="asssets/img/blog/causes/causes-3.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>Youth Development Fund</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/blog/causes/causes-1.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>CERA Annual 5k race</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/blog/causes/causes-2.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>LnJ community upliftment project</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/blog/causes/causes-3.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>Pedestrian infrastructure improvement project</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div class="item">
+                <div class="causes_item">
+                    <div class="causes_img">
+                        <img class="img-fluid" src="assets/img/blog/causes/causes-3.jpg" alt="">
+                        <div class="c_parcent">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="causes_text">
+                        <h4>Youth Employment Relief fund</h4>
+                        <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace that’s why it’s crucial.</p>
+                    </div>
+                    <div class="causes_bottom">
+                        <a href="donation.html">Raised: $50,689</a>
+                        <a href="donation.html">Total Need: $500k</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Causes Area =================-->
+
+  <!--================Causes Area =================-->
+  <section class="causes_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Support Local Businesses</h2>
+            <p>If you are a serious astronomy fanatic like a lot of us are, you can probably <br /> remember that one event in childhood that started.</p>
+        </div>
+        <div class="causes_slider owl-carousel">
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/event/event-1.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">Laundry</a>
+                            <a href="event-details.html"><h4>Mary's Laundromat</h4></a>
+                            <p style="color: black;">Shop Based at Clayville East Express Centre, 
+                                it has been operating for over 7 years providing residents with well washed clothing and shoes.Visit their laundromat today.</p>
+                                <button class="btn btn-success">Contact Them Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/pearlsbabies.PNG" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">Creches</a>
+                            <a href="event-details.html"><h4>Pearl's Babies</h4></a>
+                            <p style="color: black;">Shop Based at Clayville East Express Centre, 
+                                it has been operating for over 7 years providing residents with well washed clothing and shoes.Visit their laundromat today.</p>
+                                <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Contact Them Today</button>
+                                <!-- Modal -->
+                                <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                        <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/event/event-2.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">Food</a>
+                            <a href="event-details.html"><h4>Asanda's Cookout</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                            <button class="btn btn-success">Contact Them Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/event/event-2.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">Wellness & Fitness</a>
+                            <a href="event-details.html"><h4>Mochachos Gym</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                            <button class="btn btn-success">Contact Them Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/event/event-2.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">Information Technology</a>
+                            <a href="event-details.html"><h4>Babirwa IT Shop</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                            <button class="btn btn-success">Contact Them Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="img/event/event-2.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">25th February, 2017</a>
+                            <a href="event-details.html"><h4>Telkom Redevelopment Project</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                            <button class="btn btn-success">Contact Them Today</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Causes Area =================-->
+
+   <!--================Event Area =================-->
+   <section class="event_area p_120">
+    <div class="container">
+        <div class="main_title">
+            <h2>Community News</h2>
+            <p>Stay in touch with what is happening in Clayville East </p>
+        </div>
+        <div class="event_slider owl-carousel">
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="assets/img/event/event-1.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">25th February, 2017</a>
+                            <a href="event-details.html"><h4>Sign up for CERA mobile app coming in October 2020</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event_item">
+                    <div class="media">
+                        <div class="d-flex">
+                            <img src="assets/img/event/event-2.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <a href="#">25th February, 2017</a>
+                            <a href="event-details.html"><h4>Telkom Redevelopment Project</h4></a>
+                            <p>For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</section>
+

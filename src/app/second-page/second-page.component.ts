@@ -7,6 +7,10 @@ import {FirebaseUISignInSuccessWithAuthResult} from 'firebaseui-angular';
   templateUrl: './second-page.component.html',
   styleUrls: ['./second-page.component.scss']
 })
+
+
+
+
 export class SecondPageComponent implements OnInit {
 
   constructor(private afAuth: AngularFireAuth) {
@@ -23,4 +27,6 @@ export class SecondPageComponent implements OnInit {
   successCallback(data: FirebaseUISignInSuccessWithAuthResult) {
     console.log(data);
   }
+
+ 
 }
