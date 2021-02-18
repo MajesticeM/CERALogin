@@ -17,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HomeComponent } from './home/home.component';
+import { ApplyComponent } from './apply/apply.component';
 
 
 const firebaseUiAuthConfig: firebaseui.auth.Config = {
@@ -53,7 +54,8 @@ const firebaseUiAuthConfig: firebaseui.auth.Config = {
   declarations: [
     AppComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    ApplyComponent
   ],
   
   imports: [

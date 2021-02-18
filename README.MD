@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Build Status](https://travis-ci.org/RaphaelJenni/FirebaseUI-Angular.svg?branch=master)](https://travis-ci.org/RaphaelJenni/FirebaseUI-Angular)
 [![npm version](https://badge.fury.io/js/firebaseui-angular.svg)](https://badge.fury.io/js/firebaseui-angular)
 
@@ -299,3 +300,6 @@ This will stop this error message.
 MIT © [Raphael Jenni](mailto:info@rjenni.ch)
 #   C E R A L o g i n  
  
+=======
+
+>>>>>>> a27cd6b490065102b086a820c923718a17c20844
